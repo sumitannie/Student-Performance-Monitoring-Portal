@@ -21,7 +21,7 @@ This project focuses on clarity, simplicity, and real classroom usability.
 - Printable, professional layout
 
 ### 👩‍🏫 Teacher-Friendly Navigation
-- **View Report Card** for any student anytime
+- View Report Card for any student anytime
 - Persistent data (records remain after restart)
 
 ### 🏫 Class-wise Filtering
@@ -29,19 +29,16 @@ This project focuses on clarity, simplicity, and real classroom usability.
 - Helps teachers managing multiple sections
 
 ### 🔍 Search by Student Name
-- Search students **only by name**
-- Simple and intuitive (no need to remember class or roll)
+- Search students by name or by class
 - Designed to reduce teacher cognitive load
 
 ---
 
 ## 🧠 Design Philosophy
 
-- Built to **mirror real school workflows**
-- No unnecessary complexity
+- Built to mirror real school workflows
 - Backend-driven architecture (Flask + Jinja)
-- Minimal JavaScript (server-side logic preferred)
-- Focused on **teachability and maintainability**
+- Focused on teachability and maintainability
 
 ---
 
@@ -98,11 +95,11 @@ http://127.0.0.1:5000/
 
 
 🧪 How It Works (Flow)
-Teacher adds student details
+- Teacher adds student details
 
-Backend calculates marks, grade, and remarks
+- Backend calculates marks, grade, and remarks
 
-Data is stored in students.json
+- Data is stored in students.json
 
 Teacher can:
 
@@ -112,7 +109,7 @@ Teacher can:
 
 - Search by name
 
-- Open any student’s report card
+- Immediately generate and open any student’s report card
 
 🎯 Use Cases
 - School teachers
